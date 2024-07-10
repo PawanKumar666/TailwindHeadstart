@@ -1,21 +1,21 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Grid from './components/grid'
 
 function App() {
   return (
-    <div style={{ display : 'flex', justifyContent : 'space-around'}}>
-      <div style={{backgroundColor : 'red'}}>
+    <>
+    <div className="text-3xl flex justify-around">
+      <div className='bg-red-500'>
         <h1>Hello World</h1>
       </div>
-      <div style={{backgroundColor : 'green'}}>
+      <div className='bg-green-500'>
         <h1>Hello World</h1>
       </div>
-      <div style={{backgroundColor : 'blue'}}>
+      <div className='bg-blue-500'>
         <h1>Hello World</h1>
       </div>
     </div>
+    <Grid />
+    </>
   )
 }
 
