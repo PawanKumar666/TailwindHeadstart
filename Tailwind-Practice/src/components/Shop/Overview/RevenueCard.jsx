@@ -10,7 +10,7 @@ export default function RevenueCard({title, showWarning, amount, numOrders, redi
                 }
             </div>
             <div className="flex justify-between p-2">
-                <h1 className="pr-2 text-2xl">{amount}</h1>
+                <h1 className="pr-2 text-4xl">{amount}</h1>
                 <a className="pr-2 text-blue-500 underline pt-2" href={redirectToOrderLink}>{numOrders} Orders {">"}</a>
             </div>
         </div>

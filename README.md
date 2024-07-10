@@ -28,3 +28,5 @@ Tailwind CSS provides several utility classes to work with flexbox:
 - `items-end`: This class aligns flex items at the end of the cross axis.
 
 These utility classes make it easy to create responsive and flexible layouts without writing custom CSS.
+
+Dukaan prototype we create - https://dukaaan-app-ui.vercel.app/
