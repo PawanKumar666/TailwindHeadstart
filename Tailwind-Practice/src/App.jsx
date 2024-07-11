@@ -1,6 +1,7 @@
 import Grid from './components/grid'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import ShopHome from './components/Shop/ShopHome';
+import Mui from './components/Mui';
 
 function App() {
     return (
@@ -23,6 +24,7 @@ function App() {
             </>
           } />
           <Route path="/shop" element={<ShopHome />} />
+          <Route path="/mui" element={<Mui />} />
         </Routes>
       </BrowserRouter>
     );
