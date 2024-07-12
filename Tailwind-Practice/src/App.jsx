@@ -24,7 +24,7 @@ function App() {
             </>
           } />
           <Route path="/shop" element={<ShopHome />} />
-          <Route path="/mui" element={<SimpleButtonMui />} />
+          <Route path="/mui-simple-button" element={<SimpleButtonMui />} />
         </Routes>
       </BrowserRouter>
     );
