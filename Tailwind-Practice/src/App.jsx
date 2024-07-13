@@ -2,6 +2,7 @@ import Grid from './components/grid'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import ShopHome from './components/Shop/ShopHome';
 import SimpleButtonMui from './Mui/SimpleButtonMui';
+import ContinuousSlider from './Mui/MuiSlider';
 
 function App() {
     return (
@@ -25,6 +26,7 @@ function App() {
           } />
           <Route path="/shop" element={<ShopHome />} />
           <Route path="/mui-simple-button" element={<SimpleButtonMui />} />
+          <Route path="/mui-slider" element={<ContinuousSlider />} />
         </Routes>
       </BrowserRouter>
     );
