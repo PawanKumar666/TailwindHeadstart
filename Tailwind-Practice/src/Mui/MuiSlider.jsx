@@ -6,15 +6,12 @@ import VolumeDown from '@mui/icons-material/VolumeDown';
 import VolumeUp from '@mui/icons-material/VolumeUp';
 
 export default function ContinuousSlider() {
-  const [value, setValue] = React.useState(30); // This is so random
+  const [value, setValue] = React.useState(30);
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
 
-  // This component renders a continuous slider with volume control icons.
-  // It uses Material-UI components such as Box, Stack, Slider, VolumeDown, and VolumeUp.
-  // The slider's value is managed using React's useState hook.
   return (
     <Box sx={{ width: 200 }}>
       <Stack spacing={2} direction="row" sx={{ mb: 1 }} alignItems="center">
