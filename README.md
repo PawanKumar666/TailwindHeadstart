@@ -31,7 +31,6 @@ These utility classes make it easy to create responsive and flexible layouts wit
 
 Dukaan prototype we create - https://dukaaan-app-ui.vercel.app/
 
-Mui (Not easily customizable, can be used if we wont need customisation, has most of standard components with better look) - https://mui.com/material-ui/getting-started/
 
 ## Material-UI (MUI)
 
