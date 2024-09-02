@@ -12,7 +12,7 @@ Flex-Box :
 
 Flexbox is a layout model that allows you to design complex layouts with ease. It provides an efficient way to align and distribute space among items in a container, even when their size is unknown or dynamic.
 
-### Flexbox Variants
+### Flexbox variants
 
 Tailwind CSS provides several utility classes to work with flexbox:
 
