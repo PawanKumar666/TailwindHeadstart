@@ -29,7 +29,7 @@ Tailwind CSS provides several utility classes to work with flexbox:
 
 These utility classes make it easy to create responsive and flexible layouts without writing custom CSS.
 
-Dukaan prototype we create - https://dukaaan-app-ui.vercel.app/
+Dukaan prototype we create - https://dukaaan-app-ui.vercel.app/ -- from 100xdevs cohort
 
 
 ## Material-UI (MUI)
